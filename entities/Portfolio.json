@@ -1,0 +1,25 @@
+{
+  "name": "Portfolio",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string"
+    },
+    "crypto_symbol": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number",
+      "default": 0
+    },
+    "avg_buy_price": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "required": [
+    "user_email",
+    "crypto_symbol",
+    "amount"
+  ]
+}

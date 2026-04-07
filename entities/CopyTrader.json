@@ -1,0 +1,60 @@
+{
+  "name": "CopyTrader",
+  "type": "object",
+  "properties": {
+    "trader_name": {
+      "type": "string"
+    },
+    "specialty": {
+      "type": "string"
+    },
+    "total_profit_pct": {
+      "type": "number",
+      "default": 0
+    },
+    "monthly_profit_pct": {
+      "type": "number",
+      "default": 0
+    },
+    "win_rate": {
+      "type": "number",
+      "default": 0
+    },
+    "total_trades": {
+      "type": "number",
+      "default": 0
+    },
+    "followers": {
+      "type": "number",
+      "default": 0
+    },
+    "profit_split_pct": {
+      "type": "number",
+      "default": 20
+    },
+    "min_allocation": {
+      "type": "number",
+      "default": 100
+    },
+    "is_approved": {
+      "type": "boolean",
+      "default": false
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "default": "medium"
+    },
+    "avatar_color": {
+      "type": "string",
+      "default": "#6366f1"
+    }
+  },
+  "required": [
+    "trader_name"
+  ]
+}

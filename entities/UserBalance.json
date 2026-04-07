@@ -1,0 +1,24 @@
+{
+  "name": "UserBalance",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string"
+    },
+    "balance_usd": {
+      "type": "number",
+      "default": 0
+    },
+    "total_invested": {
+      "type": "number",
+      "default": 0
+    },
+    "total_profit_loss": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "required": [
+    "user_email"
+  ]
+}

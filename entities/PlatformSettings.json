@@ -1,0 +1,26 @@
+{
+  "name": "PlatformSettings",
+  "type": "object",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Unique setting key identifier"
+    },
+    "value": {
+      "type": "string",
+      "description": "Setting value"
+    },
+    "label": {
+      "type": "string",
+      "description": "Human readable label"
+    },
+    "updated_by": {
+      "type": "string",
+      "description": "Email of super admin who last updated"
+    }
+  },
+  "required": [
+    "key",
+    "value"
+  ]
+}
